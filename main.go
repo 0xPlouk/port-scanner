@@ -19,7 +19,7 @@ func main() {
 	}
 	var wg sync.WaitGroup
 	now := time.Now()
-	for p := 1; p <= 65535; p++ {
+	for p := 1; p <= 1024; p++ {
 		wg.Add(1)
 		go func(p int) {
 			defer wg.Done()

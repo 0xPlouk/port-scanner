@@ -1,2 +1,10 @@
-# port-scanner
+# Port-scanner
 Simple concurrent port scanner written in Golang
+
+```
+git clone https://github.com/Subnetix/port-scanner/
+cd port-scanner
+go build
+./go-port-scan host
+```
+

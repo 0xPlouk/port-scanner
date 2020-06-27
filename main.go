@@ -29,7 +29,7 @@ func main() {
 				return
 			}
 			conn.Close()
-			fmt.Printf("Port %d openned\n", p)
+			fmt.Printf("Port %d is open\n", p)
 
 		}(p)
 		time.Sleep(7 * time.Millisecond)
